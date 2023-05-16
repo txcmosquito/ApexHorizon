@@ -169,7 +169,7 @@ const AuthForm = () => {
             </div>
             <div className="relative flex justify-center text-sm">
               <span className="bg-white px-2 text-gray-500">
-                Or continue with
+                Or Continue With
               </span>
             </div>
           </div>
@@ -178,10 +178,6 @@ const AuthForm = () => {
             <AuthSocialButton 
               icon={BsGithub} 
               onClick={() => socialAction('github')} 
-            />
-            <AuthSocialButton 
-              icon={BsGoogle} 
-              onClick={() => socialAction('google')} 
             />
           </div>
         </div>
@@ -197,7 +193,7 @@ const AuthForm = () => {
           "
         >
           <div>
-            {variant === 'LOGIN' ? 'New to Messenger?' : 'Already have an account?'} 
+            {variant === 'LOGIN' ? 'New to Breach?' : 'Already have an account?'}
           </div>
           <div 
             onClick={toggleVariant} 

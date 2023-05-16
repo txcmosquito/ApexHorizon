@@ -17,10 +17,10 @@ const Auth = () => {
     >
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <Image
-          height="50"
-          width="50"
+          height="200"
+          width="200"
           className="mx-auto w-auto"
-          src="/sasuke.jpg"
+          src="/images/ITB.png"
           alt="Logo"
         />
         <h2 
