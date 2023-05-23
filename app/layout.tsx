@@ -2,10 +2,11 @@ import './globals.css'
 import AuthContext from './context/AuthContext'
 import ActiveStatus from './components/ActiveStatus'
 import ToasterContext from './context/ToasterContext'
+import React from "react";
 
 export const metadata = {
-  title: 'Messenger',
-  description: 'Messenger Clone',
+  title: 'Chat',
+  description: 'Chat',
 }
 
 export default function RootLayout({

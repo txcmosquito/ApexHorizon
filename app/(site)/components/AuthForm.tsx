@@ -63,6 +63,7 @@ const AuthForm = () => {
         }
 
         if (callback?.ok) {
+          toast.success("Logged In!")
           router.push('/conversations')
         }
       })
@@ -81,6 +82,7 @@ const AuthForm = () => {
         }
 
         if (callback?.ok) {
+          toast.success("Logged In!")
           router.push('/conversations')
         }
       })
@@ -98,6 +100,7 @@ const AuthForm = () => {
         }
 
         if (callback?.ok) {
+          toast.success("Logged In!")
           router.push('/conversations')
         }
       })
@@ -136,7 +139,7 @@ const AuthForm = () => {
             errors={errors}
             required
             id="email" 
-            label="Email address" 
+            label="Email Address"
             type="email"
           />
           <Input 
