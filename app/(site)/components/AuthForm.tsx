@@ -193,7 +193,7 @@ const AuthForm = () => {
           "
         >
           <div>
-            {variant === 'LOGIN' ? 'New to Breach?' : 'Already have an account?'}
+            {variant === 'LOGIN' ? 'New User?' : 'Already have an account?'}
           </div>
           <div 
             onClick={toggleVariant} 

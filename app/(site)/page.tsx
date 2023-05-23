@@ -12,17 +12,17 @@ const Auth = () => {
         py-12 
         sm:px-6 
         lg:px-8
-        bg-violet-300
+        bg-gray-100
       "
     >
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
-        <Image
-          height="200"
-          width="200"
-          className="mx-auto w-auto"
-          src="/images/ITB.png"
-          alt="Logo"
-        />
+        {/*<Image*/}
+        {/*  height="200"*/}
+        {/*  width="200"*/}
+        {/*  className="mx-auto w-auto"*/}
+        {/*  src="/images/ITB.png"*/}
+        {/*  alt="Logo"*/}
+        {/*/>*/}
         <h2 
           className="
             mt-6 
@@ -33,7 +33,7 @@ const Auth = () => {
             text-gray-900
           "
           >
-            Sign in to your account
+            {/*Sign in to your account*/}
         </h2>
       </div>
       <AuthForm />      
