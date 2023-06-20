@@ -5,6 +5,7 @@ import {
   FieldValues, 
   UseFormRegister
 } from "react-hook-form";
+import React from "react";
 
 interface MessageInputProps {
   placeholder?: string;

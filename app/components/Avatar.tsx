@@ -8,7 +8,7 @@ import React from "react";
 
 interface AvatarProps {
   user?: User;
-}
+};
 
 const Avatar: React.FC<AvatarProps> = ({ user }) => {
   const { members } = useActiveList();

@@ -1,9 +1,10 @@
 import { useMemo } from "react";
 import { usePathname } from "next/navigation";
-import { HiChat } from 'react-icons/hi';
+import { HiChat, HiVideoCamera, HiOutlineMusicNote, HiCheck } from 'react-icons/hi';
 import { HiArrowLeftOnRectangle, HiUsers } from 'react-icons/hi2';
 import { signOut } from "next-auth/react";
 import useConversation from "./useConversation";
+import { AiOutlineRobot } from 'react-icons/ai';
 
 const useRoutes = () => {
   const pathname = usePathname();
@@ -21,6 +22,24 @@ const useRoutes = () => {
       href: '/users', 
       icon: HiUsers, 
       active: pathname === '/users'
+    },
+    {
+      label: 'Videocall',
+      href: '/videocall',
+      icon: HiVideoCamera,
+      active: pathname === '/videocall'
+    },
+    // {
+    //   label: 'Music',
+    //   href: '/music',
+    //   icon: HiOutlineMusicNote,
+    //   active: pathname === '/music'
+    // },
+    {
+      label: 'Chatbot',
+      href: '/chatbot',
+      icon: AiOutlineRobot,
+      active: pathname === '/chatbot'
     },
     {
       label: 'Logout', 

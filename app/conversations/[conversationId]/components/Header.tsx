@@ -2,7 +2,7 @@
 
 import { HiChevronLeft } from 'react-icons/hi'
 import { HiEllipsisHorizontal } from 'react-icons/hi2';
-import { useMemo, useState } from "react";
+import React, { useMemo, useState } from "react";
 import Link from "next/link";
 import { Conversation, User } from "@prisma/client";
 
@@ -42,7 +42,7 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
     />
     <div 
       className="
-        bg-white 
+        bg-violet-200
         w-full 
         flex 
         border-b-[1px] 
@@ -57,7 +57,7 @@ const Header: React.FC<HeaderProps> = ({ conversation }) => {
     >
       <div className="flex gap-3 items-center">
         <Link
-          href="/conversations" 
+          href="/conversations"
           className="
             lg:hidden 
             block 

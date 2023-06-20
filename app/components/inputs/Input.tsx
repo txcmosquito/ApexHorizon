@@ -6,6 +6,7 @@ import {
   FieldValues, 
   UseFormRegister 
 } from "react-hook-form";
+import React from "react";
 
 interface InputProps {
   label: string;
@@ -16,6 +17,14 @@ interface InputProps {
   errors: FieldErrors
   disabled?: boolean;
 }
+
+// {...register(id, {
+//   required,
+//   pattern: {
+//     value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+//     message: 'Invalid email address',
+//   },
+// })}
 
 const Input: React.FC<InputProps> = ({
   label,
@@ -28,16 +37,7 @@ const Input: React.FC<InputProps> = ({
 }) => {
   return ( 
     <div>
-      <label 
-        htmlFor={id} 
-        className="
-          block 
-          text-sm 
-          font-medium 
-          leading-6 
-          text-gray-900
-        "
-      >
+      <label htmlFor={id} className="block text-sm font-medium leading-6 text-gray-900">
         {label}
       </label>
       <div className="mt-2">

@@ -3,7 +3,7 @@
 import { User } from "@prisma/client";
 import { useRouter } from "next/navigation";
 import { useSession } from "next-auth/react";
-import { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { MdOutlineGroupAdd } from 'react-icons/md';
 import clsx from "clsx";
 import { find, uniq } from 'lodash';
@@ -13,6 +13,8 @@ import { pusherClient } from "@/app/libs/pusher";
 import GroupChatModal from "@/app/components/modals/GroupChatModal";
 import ConversationBox from "./ConversationBox";
 import { FullConversationType } from "@/app/types";
+import {AiFillTaobaoCircle} from "react-icons/all";
+
 
 interface ConversationListProps {
   initialItems: FullConversationType[];
@@ -20,10 +22,8 @@ interface ConversationListProps {
   title?: string;
 }
 
-const ConversationList: React.FC<ConversationListProps> = ({ 
-  initialItems, 
-  users
-}) => {
+const ConversationList: React.FC<ConversationListProps> = ({initialItems, users}) =>
+{
   const [items, setItems] = useState(initialItems);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -98,9 +98,13 @@ const ConversationList: React.FC<ConversationListProps> = ({
       `, isOpen ? 'hidden' : 'block w-full left-0')}>
         <div className="px-5">
           <div className="flex justify-between mb-4 pt-4">
+
+
             <div className="text-2xl font-bold text-neutral-800">
               Messages
             </div>
+
+
             <div 
               onClick={() => setIsModalOpen(true)} 
               className="

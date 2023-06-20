@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Body from "./components/Body";
 import Form from "./components/Form";
 import EmptyState from "@/app/components/EmptyState";
+import getUsers from "@/app/actions/getUsers";
 
 interface IParams {
   conversationId: string;
@@ -13,6 +14,7 @@ interface IParams {
 const ChatId = async ({ params }: { params: IParams }) => {
   const conversation = await getConversationById(params.conversationId);
   const messages = await getMessages(params.conversationId);
+  const users = await getUsers();
 
   if (!conversation) {
     return (

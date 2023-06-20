@@ -11,12 +11,12 @@ const EmptyState = () => {
         flex 
         justify-center 
         items-center 
-        bg-gray-100
+        bg-violet-200
       "
     >
       <div className="text-center items-center flex flex-col">
         <h3 className="mt-2 text-2xl font-semibold text-gray-900">
-          Start a Conversation
+          Start Chatting...
         </h3>
       </div>
     </div>

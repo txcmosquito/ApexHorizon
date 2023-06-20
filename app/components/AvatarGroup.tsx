@@ -5,7 +5,7 @@ import Image from "next/image";
 
 interface AvatarGroupProps {
   users?: User[];
-}
+};
 
 const AvatarGroup: React.FC<AvatarGroupProps> = ({ 
   users = [] 
@@ -34,7 +34,7 @@ const AvatarGroup: React.FC<AvatarGroupProps> = ({
           `}>
             <Image
               fill
-              src={user?.image || '/images/pp.jpg'}
+              src={user?.image || '/images/placeholder.jpg'}
               alt="Avatar"
             />
         </div>

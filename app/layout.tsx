@@ -6,7 +6,7 @@ import React from "react";
 
 export const metadata = {
   title: 'Chat',
-  description: 'Chat',
+  description: 'Start',
 }
 
 export default function RootLayout({
