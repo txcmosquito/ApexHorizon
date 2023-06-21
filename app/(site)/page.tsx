@@ -54,10 +54,10 @@ const Auth = () => {
                     className="text-4xl font-bold text-yellow-300 mb-4"
                     style={pandoraAnimation}
                 >
-                    ApexConnect
+                    ApexHorizon
                 </animated.h1>
                 <animated.p className="text-white text-lg" style={pandoraAnimation}>
-                    Apex Connect is a powerful and dynamic chat application designed to revolutionize the way people connect and communicate. With its cutting-edge features and user-friendly interface, Apex Connect offers a seamless and engaging messaging experience. Apex Connect boasts real-time messaging capabilities, allowing users to instantly exchange messages, photos and other media with their contacts. Whether its one-on-one conversations or group chats, Apex Connect provides a platform for effortless and efficient communication.
+                    ApexHorizon is a powerful and dynamic chat application designed to revolutionize the way people connect and communicate. With its cutting-edge features and user-friendly interface, Apex Connect offers a seamless and engaging messaging experience. Apex Connect boasts real-time messaging capabilities, allowing users to instantly exchange messages, photos and other media with their contacts. Whether its one-on-one conversations or group chats, ApexHorizon provides a platform for effortless and efficient communication.
                 </animated.p>
             </div>
         </div>

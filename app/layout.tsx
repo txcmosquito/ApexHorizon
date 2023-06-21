@@ -5,7 +5,7 @@ import ToasterContext from './context/ToasterContext'
 import React from "react";
 
 export const metadata = {
-  title: 'Chat',
+  title: 'ApexHorizon',
   description: 'Start',
 }
 
