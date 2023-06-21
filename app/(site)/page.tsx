@@ -57,9 +57,7 @@ const Auth = () => {
                     ApexConnect
                 </animated.h1>
                 <animated.p className="text-white text-lg" style={pandoraAnimation}>
-                    Apex Connect is a powerful and dynamic chat application designed to revolutionize the way people connect and communicate. With its cutting-edge features and user-friendly interface, Apex Connect offers a seamless and engaging messaging experience.
-
-                    Apex Connect boasts real-time messaging capabilities, allowing users to instantly exchange messages, photos and other media with their contacts. Whether it's one-on-one conversations or group chats, Apex Connect provides a platform for effortless and efficient communication.
+                    Apex Connect is a powerful and dynamic chat application designed to revolutionize the way people connect and communicate. With its cutting-edge features and user-friendly interface, Apex Connect offers a seamless and engaging messaging experience. Apex Connect boasts real-time messaging capabilities, allowing users to instantly exchange messages, photos and other media with their contacts. Whether its one-on-one conversations or group chats, Apex Connect provides a platform for effortless and efficient communication.
                 </animated.p>
             </div>
         </div>
