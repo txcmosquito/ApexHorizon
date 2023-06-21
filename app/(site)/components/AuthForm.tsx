@@ -119,11 +119,11 @@ const AuthForm = () => {
           <Input disabled={isLoading} register={register} errors={errors} required id="password" label="Password" type="password"
           />
 
-          <div>
-            <Button disabled={isLoading} fullWidth type="submit">
-              {variant === 'LOGIN' ? 'Sign In' : 'Register'}
-            </Button>
-          </div>
+          {/*<div>*/}
+          {/*  <Button disabled={isLoading} fullWidth type="submit">*/}
+          {/*    {variant === 'LOGIN' ? 'Sign In' : 'Register'}*/}
+          {/*  </Button>*/}
+          {/*</div>*/}
 
         </form>
 
