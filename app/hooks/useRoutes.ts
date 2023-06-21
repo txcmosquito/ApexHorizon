@@ -29,12 +29,12 @@ const useRoutes = () => {
     //   icon: HiVideoCamera,
     //   active: pathname === '/videocall'
     // },
-    // {
-    //   label: 'Music',
-    //   href: '/music',
-    //   icon: HiOutlineMusicNote,
-    //   active: pathname === '/music'
-    // },
+    {
+      label: 'Music',
+      href: '/music',
+      icon: HiOutlineMusicNote,
+      active: pathname === '/music'
+    },
     // {
     //   label: 'Chatbot',
     //   href: '/chatbot',
