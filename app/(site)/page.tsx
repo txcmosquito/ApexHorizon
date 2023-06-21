@@ -29,7 +29,7 @@ const Auth = () => {
     });
 
     return (
-        <div className="flex min-h-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 justify-center w-full py-12 px-6 z-10" >
+        <div className="flex min-h-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500" >
             <div className="absolute top-0 right-0 z-10">
                 <FiStar className="animate-spin w-12 h-12 text-yellow-300" />
                 <FiMoon className="animate-pulse w-12 h-12 text-gray-300" />
