@@ -23,24 +23,24 @@ const useRoutes = () => {
       icon: HiUsers, 
       active: pathname === '/users'
     },
-    {
-      label: 'Videocall',
-      href: '/videocall',
-      icon: HiVideoCamera,
-      active: pathname === '/videocall'
-    },
+    // {
+    //   label: 'Videocall',
+    //   href: '/videocall',
+    //   icon: HiVideoCamera,
+    //   active: pathname === '/videocall'
+    // },
     // {
     //   label: 'Music',
     //   href: '/music',
     //   icon: HiOutlineMusicNote,
     //   active: pathname === '/music'
     // },
-    {
-      label: 'Chatbot',
-      href: '/chatbot',
-      icon: AiOutlineRobot,
-      active: pathname === '/chatbot'
-    },
+    // {
+    //   label: 'Chatbot',
+    //   href: '/chatbot',
+    //   icon: AiOutlineRobot,
+    //   active: pathname === '/chatbot'
+    // },
     {
       label: 'Logout', 
       onClick: () => signOut(),
