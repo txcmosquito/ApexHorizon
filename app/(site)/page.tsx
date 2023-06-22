@@ -25,7 +25,7 @@ const Auth = () => {
         config: { duration: 500 },
     });
 
-    const isMobileView = window.innerWidth < 768; // Adjust the breakpoint as per your needs
+    const isMobileView = typeof window !== "undefined" && window.innerWidth < 768; // Adjust the breakpoint as per your needs
 
     return (
         <div className="flex min-h-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500">
@@ -66,6 +66,7 @@ const Auth = () => {
 };
 
 export default Auth;
+
 
 
 
